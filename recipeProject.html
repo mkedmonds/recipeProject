@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collie's Recipe Book</title>
+  
+    <!-- CSS STYLE SHEET -->
+    <link rel="stylesheet" href="recipeStyle.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+
+
+    <!-- JAVASCRIPT AND JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="recipeJS.js"></script>
+
+
+    <!-- RECIPE PAGES -->
+
+    <link href="chilli.html">
+    <link href="crepes.html">
+    <link href="dinner.html">
+
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <h1>Collie's Recipe Book</h1>
+
+            <h2>Welcome! Please choose a meal.</h2>
+            
+
+            <select class="selectCss" id="chooseRecipe" >
+
+                <option value="">Please choose a meal option</option>
+    
+    
+            </select>
+
+        </header>
+
+        
+
+        <div id="recipeResult">
+
+
+        </div>
+
+        <footer>
+
+            <h3>Copyright &copy; 
+                
+            <script>
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        
+            , All Rights Reserved </h3>
+
+        </footer>
+
+
+    </div>
+
+</body>
+</html>
